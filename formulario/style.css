@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.fondo{
+    background-image: url(../fotografo-demanda.jpg);
+    background-attachment:unset;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo2{
+    background-color: white;
+}
+.derecha{
+    margin-top: 50px;
+}
+#logito{
+    margin:auto;
+}
