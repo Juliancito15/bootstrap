@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 .fondo{
     background-image: url(../fotografo-demanda.jpg);
@@ -9,11 +9,21 @@ body{
     background-size: cover;
 }
 .fondo2{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
 }
 .derecha{
     margin-top: 50px;
 }
+.container{
+    box-shadow: 10px 6px 100px rgb(10, 10, 10);
+}
+.boton{
+    margin-left: 250px;
+}
 #logito{
+    border-radius: 5%;
     margin:auto;
+    height: 300px;
+    width: 300px;
 }

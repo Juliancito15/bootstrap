@@ -12,12 +12,12 @@
   <body>
     <div class="container">
         <div class="row vh-100 fondo2 m-5">
-            <div class="col-md-6 fondo"></div>
+            <div class="col-md-6 d-none d-md-block fondo"></div> <!-- d=display, sirve para eliminar imagenes o bloques enteros con el breakpoint-->
 
             <div class="col-md-6 derecha">
                  <div class="row">
                     <div class="col-md-12 d-flex justify-content-center">
-                        <img src="../lohooo.png" class="rounded" alt="logo-cet30">                    
+                        <img id="logito" src="../lohooo.png" class="rounded" alt="logo-cet30">                    
                     </div>
                     <div class="col-md-12">
                         <h2 class="text-center">Ingresar al Campus Virtual</h2>
@@ -32,7 +32,7 @@
                       <input type="contraseña" class="form-control" id="exampleInputPassword1">
                     </div>
                     <div>
-                    <button type="Ingresar" class="btn btn-primary">Ingresar</button>
+                    <button type="Ingresar" class="btn btn-primary boton">Ingresar</button>
                     <p class="text-center">Ir al sitio de la Institución <a href="https://campus.cet30.edu.ar/login/index.php">CET Nº30</a></p>
                     </div>
                  </form>
