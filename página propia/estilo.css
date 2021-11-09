@@ -1,8 +1,16 @@
+#gibson{
+    font-family: 'Zen Old Mincho', serif; 
+    color: white;
+}
 .barra{
-    font-family: 'Special Elite', cursive;
+    font-family: 'Monoton', cursive;
     background-color: rgb(255, 255, 255);
     margin-top: 2px;
     padding:auto;
+    border-radius: 5%;
+}
+.Gibson{
+    background-color: black;
 }
 .barra1{
     background-color: rgb(0, 0, 0);
