@@ -1,6 +1,10 @@
-#gibson{
+.texto{
     font-family: 'Zen Old Mincho', serif; 
     color: white;
+}
+.texto2{
+    font-family: 'Zen Old Mincho', serif; 
+    color: black;
 }
 .barra{
     font-family: 'Monoton', cursive;
